@@ -4,3 +4,22 @@
 body {
   background: #efefef;
 }
+.wrap {
+  display: flex;
+}
+.wrap > div {
+  width: 50%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid blue;
+}
+.preview-top-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.preview-top-wrap ul {
+  display: flex;
+}
